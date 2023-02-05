@@ -1,0 +1,11 @@
+
+    SYNTAX -
+    FILE *f1;
+    f1 = fopen("filename", mode);
+
+    # modes:
+    "r" = open to read
+    "rb"= open to read in binary
+    "w" = open to write                (old data is lost. creats new file if not found)
+    "wb"= open to write in binary
+    "a" = open to append               (adds to old data)
