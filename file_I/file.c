@@ -12,7 +12,7 @@ int main() {
 
 void print(FILE *f) {
     char ch;
-    while(ch != EOF) {
+    while(ch != EOF) {          // EOF => end of file
         ch = fgetc(f);
         putchar(ch);
     }

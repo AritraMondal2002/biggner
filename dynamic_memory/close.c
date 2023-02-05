@@ -22,4 +22,6 @@ void main() {
         printf("%d, ", ptr[i]);
         i++;
     }
+
+    free(ptr);
 }

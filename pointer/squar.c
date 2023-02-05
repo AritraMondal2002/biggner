@@ -1,12 +1,16 @@
 #include<stdio.h>
+
 void sq();
 void _sq();
+
 void main(){
     int x = 5;
 
+    //call by val
     sq(x);
     printf("x: %d\n", x);
 
+    //call by referance
     _sq(&x);
     printf("x: %d\n", x);
 }

@@ -4,7 +4,7 @@ int main()
 {
     int *ptr;       //malloc returns a void pointer for that memory.
     ptr = (int*) malloc(5 * sizeof(int));   //(int*) -> void pointer typecasted to int pointer
-    ptr[0] = 1;     // 5 times of size of int(i.e. 5 * 4 = 20 Byts)
+    ptr[0] = 1;     // 5 times of size of int (i.e. 5 * 4 = 20 Byts)
     ptr[1] = 2;
     ptr[2] = 3;
     ptr[3] = 4;
@@ -35,6 +35,7 @@ int main()
     ptr[3] = 3;
     ptr[4] = 2;
     ptr[5] = 1;
+
     printf("\n");
     for(int i = 0; i < 6; i++) {
         printf("%d, ", ptr[i]);
